@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
             videos = document.querySelectorAll('.video__container'),
             videosCount = videos.length;
 
+            listVideosGrid.classList.remove('gridTemplateOne', 'gridTemplateTwo', 'gridTemplateThree', 'gridTemplateFour', 'gridTemplateFive', 'gridTemplateSix');
+
             // Dependiendo la cantidad de videos, muestro una grilla diferente
             if (videosCount === 2) {
                 listVideosGrid.classList.add('gridTemplateTwo');
             } else if (videosCount === 3) {
-                console.log(listVideosGrid.classList);
                 listVideosGrid.classList.add('gridTemplateThree');
             } else if (videosCount === 4) {
                 listVideosGrid.classList.add('gridTemplateFour');

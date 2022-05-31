@@ -46,7 +46,9 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-size: 1.6rem;
+  height: 100vh;
 }
 body .videos__container {
   height: 100vh;
@@ -55,16 +57,17 @@ body .videos__container {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5rem;
+  padding: 2rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 body .videos__container .videos__container--list .video__container {
-  padding: 3rem;
+  padding: 1rem;
 }
 body .videos__container .videos__container--list .video__container video {
   width: 100%;
+  max-height: 500px;
 }
 
 /*# sourceMappingURL=styles.css.map */
