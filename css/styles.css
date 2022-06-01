@@ -11,6 +11,10 @@ html {
 .gridTemplateOne {
   display: flex;
 }
+.gridTemplateOne .video__container video {
+  height: 100%;
+  max-height: 100% !important;
+}
 
 .gridTemplateTwo {
   display: grid;
